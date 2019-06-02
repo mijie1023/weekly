@@ -14,4 +14,7 @@
 1.uglify是生产环境编译最耗时动作；一般生成环境编译频率较低，因此优化不是很紧迫；
 2.webpack-uglify-parallel 多核并行压缩的方式来提升压缩速度；
 
+## devtool
+开发环境 推荐： cheap-module-eval-source-map
+
 https://techblog.toutiao.com/2017/02/28/webpack/
